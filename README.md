@@ -7,9 +7,9 @@ Steps to follow for preparing JMeter test scripts. <br/>
 1- Download apache-jmeter-5.4.1 . <br/>
 2- Start JMeter GUI. <br/>
 3- Create a new Test Plan and add a new Thread Group with the following values : <br/>
-– The number of Threads (users): 10 <br/>
-– Ramp-up time: 10 <br/>
-– Loop count: 1 <br/>
+– The number of Threads (users) : 10 <br/>
+– Ramp-up time : 10 <br/>
+– Loop count : 1 <br/>
 
 4- Add HTTP Request to Thread Group with the following values : <br/>
 - protocol : http <br/>
