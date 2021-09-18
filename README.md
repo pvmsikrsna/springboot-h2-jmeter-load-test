@@ -1,7 +1,7 @@
 ## spring-boot-maven-jmeter-performance-test
 
 Purpose : Create a new maven profile to execute only JMeter performance tests with jmeter-maven-plugin. <br/>
-Reason : jmeter-maven-plugin parses and executes all the JMeter Test scripts saved in "src/test/jmeter" directory and generates a performance report in a separate performance build. <br/>
+Reason : jmeter-maven-plugin parses and executes all the JMeter Test scripts saved in "src/test/jmeter" directory and generates a performance report in a separate maven performance execution. <br/>
 
 Steps to follow for preparing JMeter test scripts. <br/>
 1- Download apache-jmeter-5.4.1 . <br/>
