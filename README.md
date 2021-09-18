@@ -64,6 +64,8 @@ $ mvn clean install -P performance-test <br/>
 
 4- jmeter-maven-plugin results can be accessed from the application directory : "target/jmeter/results" <br/>
 
+![jmeter_maven_plugin](doc/jmeter_maven_plugin_target_jmeter_results.png) <br/>
+
 ### Tech Stack
 Java 11 <br/>
 H2 Database Engine <br/>
