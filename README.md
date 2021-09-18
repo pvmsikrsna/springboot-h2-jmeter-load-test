@@ -29,6 +29,9 @@ Steps to follow for preparing JMeter test scripts. <br/>
 8- Create a performance test and save it as HTTP_POST_customer-info_store_save_operation.jmx file. <br/>
 9- Create jmeter directory under src/test folder. <br/>
 10- Copy your jmeter HTTP_POST_customer-info_store_save_operation.jmx file & move to src/test/jmeter. <br/>
+
+![JMeter_GUI_TestPlan](doc/JMeter_GUI_TestPlan.png) <br/>
+
 <br/>
 ### Local run steps <br/>
 NOT : Because it is a local test do not forget to start your API before running performance tests.<br/>
