@@ -1,0 +1,84 @@
+GET http://127.0.0.1:8090/customer-info/store/list
+Accept: application/json
+
+<> 2023-09-24T154431.200.json
+
+###
+
+GET http://127.0.0.1:8090/customer-info/customer/list
+Accept: application/json
+
+<> 2023-09-24T154614.200.json
+
+###
+
+DELETE http://127.0.0.1:8090/customer-info/customer/delete/8
+
+###
+
+POST http://127.0.0.1:8090/customer-info/customer/save
+Content-Type:  application/json
+
+{
+  "name": "Vamshi",
+  "age": 34,
+  "shippingAddress": {
+    "streetName": "Street 1",
+    "city": "City 1",
+    "country": "Country 1"
+  }
+}
+
+###
+
+PUT http://127.0.0.1:8090/customer-info/customer/update/{id}
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8090/customer-info/customerorder/save
+
+###
+
+GET http://127.0.0.1:8090/customer-info/customerorder/list
+Accept: application/json
+
+###
+
+PUT http://127.0.0.1:8090/customer-info/customerorder/update/{id}
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8090/customer-info/product/save
+
+###
+
+GET http://127.0.0.1:8090/customer-info/product/list
+Accept: application/json
+
+###
+GET http://127.0.0.1:8090/customer-info/store/list
+Accept: application/json
+
+###
+POST http://127.0.0.1:8090/customer-info/store/save
+Content-Type: application/json
+
+{
+  "name": "jeans_store2",
+  "products": [
+    {
+      "name": "prod1"
+    },
+    {
+      "name": "prod2"
+    },
+    {
+      "name": "prod3"
+    }
+  ]
+}
+
+###
+
